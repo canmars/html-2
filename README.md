@@ -1,1 +1,1 @@
-### DEÜ YBS Web Tasarım Teknikleri dersi vize sonrası ders notları.
+### DEÜ YBS Web Tasarım Teknikleri Dersi Vize Sonrası Ders Notları
