@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ecf0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-box{
+    background: white;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    text-align: center;
+}
+.login-box h2{
+    margin-bottom: 10px;
+}
+.login-box .bold{
+ font-weight: bold;
+ color:#a5a9ab
+}
+.login-box .light{
+    font-weight: lighter;
+}
+
+.login-box p{
+    color:#666;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-group input{
+    width: 100%;
+    padding: 5px 5px 10px 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group i{
+    position: absolute;
+    right:10px;
+    top:10px;
+    color:#999;
+}
+.form-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-options label{
+    font-size: 14px;
+}
+.btn{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color:white;
+    border-radius: 4px;
+    border:none;
+}
+
+.btn.signin{
+    background-color: #007bff;
+    width: 150px;
+}
+
+.btn.facebook{
+    background-color: #007bff;
+}
+.btn.google{
+    background-color: #dc3545;
+}
+.separator{
+    margin: 15px 0;
+    color:#999
+}
+.links{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.links a{
+    color:#007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+.esnek_kutu_kapsul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 5px solid #0068ce;
+    background-color: lightblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.esnek_kutu{
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 0;
+    width: 190px;
+    margin-right: 15px;
+    flex-grow:5;
+}
+
+.esnek_kutu:nth-child(5){
+    background-color:pink;
+    text-align: center;
+    padding: 70px 0;
+    width: 190px;
+    margin-right: 15px;
+    flex-grow:5;
+}
+
+
+.esnek_kutu-red{
+    background-color:red;
+    text-align: center;
+    padding: 70px 0;
+    width: 190px;
+    margin-right: 15px;
+    flex-grow:5;
+}
+
+.esnek_kutu-purple{
+    background-color: purple;
+    text-align: center;
+    padding: 70px 0;
+    width: 190px;
+    margin-right: 15px;
+    flex-grow:5;
+}

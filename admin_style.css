@@ -1,0 +1,222 @@
+
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:white;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width:250px;
+    height: 100vh ;
+    background: #343a40;
+    color:white;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+
+hr{
+    width: 100%;
+    color:aliceblue
+}
+
+.ust_logo{
+    display: flex;
+    align-items: center;
+}
+
+.ust_logo img{
+
+    width: 50px;
+    height: 50px;
+    padding: 0 20px;
+    color:wheat
+
+}
+
+.ust_logo p{
+    font-size: 18px;
+    color:white
+}
+
+.user_panel{
+    display: flex;
+    text-align: center;
+
+}
+
+.user_panel img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.user_panel p{
+    color:whitesmoke;
+    margin-top: 30px;
+}
+
+.search-box{
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 24px;
+    margin-right: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+.search_panel{
+    display: flex;
+    align-items: center;
+    background: #343a40;
+    border: solid 1px  white;
+    border-radius: 3px;
+    padding: 2px 8px;
+    width: 95%;
+}
+
+/*
+.search_panel i{
+    }
+*/
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.menu li{
+    padding: 8px 15px;
+
+}
+
+.menu i{
+    padding: 10px;
+}
+
+.submenu{
+    list-style: none;
+    padding-left: 20px;
+    font-size: 18px;
+    color:antiquewhite
+}
+
+.badge{
+    float:right;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.badge.new{
+    background: red;
+}
+
+.badge.blue{
+    background-color: blue;
+}
+
+
+
+.card-div{
+    display: flex;
+    width: 100%;
+}
+
+.card{
+    width: 400px;
+    background-color: #17a2b8;
+    margin: 7px;
+    color: white;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,2);
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-text h3{
+    font-size: 32px;
+    margin:0;
+}
+
+.card-text p{
+    margin:auto;
+    font-size: 16px;
+}
+
+.card-icon i{
+    font-size: 40px;
+    opacity: 0.3;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card a i{
+    padding:3px;
+}
+
+.card-div .card:nth-child(2){
+    background-color: #28a745;
+}
+
+.card-div .card:nth-child(3){
+    background-color: #ffc107;
+}
+
+.card-div .card:nth-child(4){
+    background-color: #dc3545;
+}
+
+.chart-container{
+    padding: 20px
+}
+
+.grafik_div{
+    margin: 20px
+}
+
+.chart-card{
+    border-color: #17a2b8;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    overflow: hidden;
+    border-top: 5px solid #17a2b8;
+}
+
+.chart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28a745;
+    color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+

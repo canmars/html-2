@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="ust_logo">
+                <img src="images/bus.JPG">
+                <p class="brand">AdminLTE 3</p>
+            </div>
+            <hr>
+            <div class="user_panel">
+                <img src="images/tugra.JPG">
+                <p class="user_name">Alexander İskender</p>
+            </div>
+            <hr>
+            <div class="search_panel">
+                <input type="text" placeholder="Search" class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <ul class="menu">
+                <li class="active"><i class="fa-solid fa-gauge"></i>Dashboard
+                    <ul class="submenu">
+                        <li>Dashboard v1</li>
+                        <li>Dashboard v2</li>
+                        <li>Dashboard v3</li>
+                    </ul>
+                </li>
+                <li>Widgets <span class="badge new">New</span></li>
+                <li>Layout Options <span class="badge blue">6</span></li>
+                <li><i class="fa-solid fa-chart-pie"></i>Charts</li>
+                <li>UI Elements</li>
+                <li>Forms</li>
+                <li>Tables</li>
+                <li class="title">EXAMPLES</li>
+                <li>Calendar<span class="badge blue">6</span></li>
+                <li>Gallery</li>
+                <li>Kanban Board</li>
+                <li>Mailbox</li>
+                <li>Inbox</li>
+                <li>Compose</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="card-div">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h3>150</h3>
+                            <p>New Orders</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <a href="#" class="card-footer">More Info<i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h3>53</h3>
+                            <p>Bounce Rate</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                    </div>
+                    <a href="#" class="card-footer">More Info<i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h3>44</h3>
+                            <p>User Registrations</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                    </div>
+                    <a href="#" class="card-footer">More Info<i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <h3>150</h3>
+                            <p>Unique Visitors</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <a href="#" class="card-footer">More Info<i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+                <div class="grafik_div">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <span>Bart Chart</span>
+                            <div class="chart_prop">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    <div class="chart-container">
+                        <canvas id="myChart"></canvas>
+                        <canvas id="myLineChart"></canvas>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="entire-div"></div>    
+        </div>
+    </div>
+</body>
+
+</html>
